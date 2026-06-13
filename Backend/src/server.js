@@ -13,7 +13,7 @@ const app=express();
 const PORT=process.env.PORT;
 
 app.use(cors({
-    origin: ["http://localhost:5173", "http://localhost:5174","https://real-time-chat-app-tawny-phi.vercel.app/"],
+    origin: ["http://localhost:5173", "http://localhost:5174","https://real-time-chat-app-tawny-phi.vercel.app"],
     credentials: true,
 }));
 app.use(express.json());
